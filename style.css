@@ -77,15 +77,18 @@ header {
     margin: 0;
     padding: 0;
     list-style: none;
-    display:flex;
-   
+    display:flex;   
   
 }
+
+
 
 .nav__item{
     margin-right: 1em;
 }
-
+.nav__item--push-right{
+    margin-left: auto;
+}
 .nav__link {
     color: #fff;
     text-decoration: none;
@@ -97,7 +100,7 @@ header {
     color: #136c72;
     padding: .25em 1em;
     border-radius: 10em;
-}
+    }
 
 .nav__link:hover {
     opacity: .75;
